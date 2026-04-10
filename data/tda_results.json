@@ -1,0 +1,218 @@
+{
+  "audit": {
+    "methodology": "E156 TDA (Persistent Homology for Evidence Voids)",
+    "timestamp": "2026-04-10T04:59:34.940880"
+  },
+  "domains": [
+    {
+      "name": "USA_Cardio",
+      "coords": [
+        95,
+        30,
+        100
+      ]
+    },
+    {
+      "name": "UK_Cardio",
+      "coords": [
+        90,
+        28,
+        95
+      ]
+    },
+    {
+      "name": "EU_Diabetes",
+      "coords": [
+        88,
+        25,
+        90
+      ]
+    },
+    {
+      "name": "USA_Diabetes",
+      "coords": [
+        93,
+        27,
+        98
+      ]
+    },
+    {
+      "name": "Brazil_Cardio",
+      "coords": [
+        65,
+        40,
+        60
+      ]
+    },
+    {
+      "name": "China_Diabetes",
+      "coords": [
+        70,
+        35,
+        75
+      ]
+    },
+    {
+      "name": "Nigeria_Maternal",
+      "coords": [
+        35,
+        60,
+        20
+      ]
+    },
+    {
+      "name": "Kenya_Malaria",
+      "coords": [
+        40,
+        70,
+        25
+      ]
+    },
+    {
+      "name": "India_Rural_Diabetes",
+      "coords": [
+        45,
+        55,
+        30
+      ]
+    },
+    {
+      "name": "Somalia_Neglected_Trop",
+      "coords": [
+        15,
+        85,
+        5
+      ]
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "domain": "Nigeria_Maternal",
+      "birth": 0.0,
+      "death": 39.05124837953327,
+      "isolation_score": 39.05124837953327,
+      "isolation_score_normalized": 100.0
+    },
+    {
+      "domain": "Somalia_Neglected_Trop",
+      "birth": 0.0,
+      "death": 35.35533905932738,
+      "isolation_score": 35.35533905932738,
+      "isolation_score_normalized": 90.53574604251854
+    },
+    {
+      "domain": "Brazil_Cardio",
+      "birth": 0.0,
+      "death": 25.475478405713993,
+      "isolation_score": 25.475478405713993,
+      "isolation_score_normalized": 65.23601539730973
+    },
+    {
+      "domain": "China_Diabetes",
+      "birth": 0.0,
+      "death": 16.583123951777,
+      "isolation_score": 16.583123951777,
+      "isolation_score_normalized": 42.46502900652007
+    },
+    {
+      "domain": "India_Rural_Diabetes",
+      "birth": 0.0,
+      "death": 15.0,
+      "isolation_score": 15.0,
+      "isolation_score_normalized": 38.41106397986879
+    },
+    {
+      "domain": "Kenya_Malaria",
+      "birth": 0.0,
+      "death": 12.24744871391589,
+      "isolation_score": 12.24744871391589,
+      "isolation_score_normalized": 31.362502409359006
+    },
+    {
+      "domain": "EU_Diabetes",
+      "birth": 0.0,
+      "death": 6.164414002968976,
+      "isolation_score": 6.164414002968976,
+      "isolation_score_normalized": 15.785446711096029
+    },
+    {
+      "domain": "UK_Cardio",
+      "birth": 0.0,
+      "death": 4.358898943540674,
+      "isolation_score": 4.358898943540674,
+      "isolation_score_normalized": 11.161996413474888
+    },
+    {
+      "domain": "USA_Diabetes",
+      "birth": 0.0,
+      "death": 4.123105625617661,
+      "isolation_score": 4.123105625617661,
+      "isolation_score_normalized": 10.558191598757126
+    }
+  ],
+  "merge_sequence": [
+    {
+      "distance": 4.123105625617661,
+      "merged": [
+        "USA_Cardio",
+        "USA_Diabetes"
+      ]
+    },
+    {
+      "distance": 4.358898943540674,
+      "merged": [
+        "UK_Cardio",
+        "USA_Cardio"
+      ]
+    },
+    {
+      "distance": 6.164414002968976,
+      "merged": [
+        "USA_Cardio",
+        "EU_Diabetes"
+      ]
+    },
+    {
+      "distance": 12.24744871391589,
+      "merged": [
+        "Nigeria_Maternal",
+        "Kenya_Malaria"
+      ]
+    },
+    {
+      "distance": 15.0,
+      "merged": [
+        "Nigeria_Maternal",
+        "India_Rural_Diabetes"
+      ]
+    },
+    {
+      "distance": 16.583123951777,
+      "merged": [
+        "Brazil_Cardio",
+        "China_Diabetes"
+      ]
+    },
+    {
+      "distance": 25.475478405713993,
+      "merged": [
+        "USA_Cardio",
+        "Brazil_Cardio"
+      ]
+    },
+    {
+      "distance": 35.35533905932738,
+      "merged": [
+        "Nigeria_Maternal",
+        "Somalia_Neglected_Trop"
+      ]
+    },
+    {
+      "distance": 39.05124837953327,
+      "merged": [
+        "USA_Cardio",
+        "Nigeria_Maternal"
+      ]
+    }
+  ]
+}
