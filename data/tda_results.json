@@ -1,0 +1,7430 @@
+{
+  "audit": {
+    "methodology": "E156 TDA (Persistent Homology) - [DML + Conformal + Reliability Shock]",
+    "timestamp": "2026-04-12T04:26:09.621675+00:00",
+    "output_path": "C:\\Users\\user\\tda-meta\\data\\tda_results.json",
+    "output_js_path": "C:\\Users\\user\\tda-meta\\data\\tda_results.js"
+  },
+  "domains": [
+    {
+      "name": "NCT01845311 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01845311",
+        "hash": "d10f2988"
+      }
+    },
+    {
+      "name": "NCT04261257 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04261257",
+        "hash": "5316ad2c"
+      }
+    },
+    {
+      "name": "NCT04437914 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04437914",
+        "hash": "5e286836"
+      }
+    },
+    {
+      "name": "NCT01268371 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01268371",
+        "hash": "7b3d533e"
+      }
+    },
+    {
+      "name": "NCT04298177 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04298177",
+        "hash": "0f2797db"
+      }
+    },
+    {
+      "name": "NCT00417664 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00417664",
+        "hash": "b469de34"
+      }
+    },
+    {
+      "name": "NCT06338956 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06338956",
+        "hash": "9349f1b7"
+      }
+    },
+    {
+      "name": "NCT07352111 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07352111",
+        "hash": "0eaceef9"
+      }
+    },
+    {
+      "name": "NCT05450302 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05450302",
+        "hash": "1de1e379"
+      }
+    },
+    {
+      "name": "NCT04223167 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04223167",
+        "hash": "bdfadb79"
+      }
+    },
+    {
+      "name": "NCT05211401 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05211401",
+        "hash": "6005b925"
+      }
+    },
+    {
+      "name": "NCT02905357 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02905357",
+        "hash": "ca8ce555"
+      }
+    },
+    {
+      "name": "NCT03783975 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03783975",
+        "hash": "cf2f6619"
+      }
+    },
+    {
+      "name": "NCT01835392 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01835392",
+        "hash": "0af1073f"
+      }
+    },
+    {
+      "name": "NCT01766466 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01766466",
+        "hash": "e6b1b9c6"
+      }
+    },
+    {
+      "name": "NCT01692314 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01692314",
+        "hash": "837834f7"
+      }
+    },
+    {
+      "name": "NCT01598844 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01598844",
+        "hash": "21729d59"
+      }
+    },
+    {
+      "name": "NCT02579499 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02579499",
+        "hash": "3e71ea65"
+      }
+    },
+    {
+      "name": "NCT04014842 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04014842",
+        "hash": "d574b3f0"
+      }
+    },
+    {
+      "name": "NCT05719714 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05719714",
+        "hash": "fc6f0407"
+      }
+    },
+    {
+      "name": "NCT00916929 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00916929",
+        "hash": "f3b67339"
+      }
+    },
+    {
+      "name": "NCT03057977 (Global/Undefined)",
+      "coords": [
+        66.8,
+        893.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03057977",
+        "hash": "86f4bd60"
+      }
+    },
+    {
+      "name": "NCT02980393 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02980393",
+        "hash": "4b962fe9"
+      }
+    },
+    {
+      "name": "NCT03485222 (Global/Undefined)",
+      "coords": [
+        62.0,
+        30.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03485222",
+        "hash": "954cf643"
+      }
+    },
+    {
+      "name": "NCT04732039 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04732039",
+        "hash": "1ec1d83d"
+      }
+    },
+    {
+      "name": "NCT03021044 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03021044",
+        "hash": "e3622347"
+      }
+    },
+    {
+      "name": "NCT05784883 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05784883",
+        "hash": "efe39f0d"
+      }
+    },
+    {
+      "name": "NCT04509674 (Global/Undefined)",
+      "coords": [
+        63.6,
+        1625.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        0.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04509674",
+        "hash": "9a42ad83"
+      }
+    },
+    {
+      "name": "NCT01948622 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01948622",
+        "hash": "b94a09a5"
+      }
+    },
+    {
+      "name": "NCT00140998 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00140998",
+        "hash": "9c86f73d"
+      }
+    },
+    {
+      "name": "NCT05911386 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05911386",
+        "hash": "07773041"
+      }
+    },
+    {
+      "name": "NCT06227819 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06227819",
+        "hash": "94da3cc4"
+      }
+    },
+    {
+      "name": "NCT05774795 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05774795",
+        "hash": "1869191c"
+      }
+    },
+    {
+      "name": "NCT00989456 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00989456",
+        "hash": "1a62fcb8"
+      }
+    },
+    {
+      "name": "NCT06346145 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06346145",
+        "hash": "0f0aa084"
+      }
+    },
+    {
+      "name": "NCT07247032 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07247032",
+        "hash": "4f68f6d6"
+      }
+    },
+    {
+      "name": "NCT07283172 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07283172",
+        "hash": "da76037f"
+      }
+    },
+    {
+      "name": "NCT06119009 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06119009",
+        "hash": "a8de63d7"
+      }
+    },
+    {
+      "name": "NCT04210167 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04210167",
+        "hash": "f1dbf5d3"
+      }
+    },
+    {
+      "name": "NCT01074671 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01074671",
+        "hash": "c4074d8b"
+      }
+    },
+    {
+      "name": "NCT04468477 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04468477",
+        "hash": "3d9f0c46"
+      }
+    },
+    {
+      "name": "NCT04937816 (Global/Undefined)",
+      "coords": [
+        67.1,
+        5568.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04937816",
+        "hash": "bc202ea9"
+      }
+    },
+    {
+      "name": "NCT02843464 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02843464",
+        "hash": "2cf0786a"
+      }
+    },
+    {
+      "name": "NCT06546163 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06546163",
+        "hash": "d21fa9a4"
+      }
+    },
+    {
+      "name": "NCT04562532 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04562532",
+        "hash": "43e184d7"
+      }
+    },
+    {
+      "name": "NCT02083744 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02083744",
+        "hash": "00b4e361"
+      }
+    },
+    {
+      "name": "NCT05262764 (Global/Undefined)",
+      "coords": [
+        74.9,
+        455.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05262764",
+        "hash": "50c4fe88"
+      }
+    },
+    {
+      "name": "NCT02041130 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02041130",
+        "hash": "54df3912"
+      }
+    },
+    {
+      "name": "NCT06626672 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06626672",
+        "hash": "e38ee972"
+      }
+    },
+    {
+      "name": "NCT03030222 (Global/Undefined)",
+      "coords": [
+        66.2,
+        24.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03030222",
+        "hash": "fd8c7bfe"
+      }
+    },
+    {
+      "name": "NCT01384656 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01384656",
+        "hash": "e03444de"
+      }
+    },
+    {
+      "name": "NCT04554004 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04554004",
+        "hash": "302c059c"
+      }
+    },
+    {
+      "name": "NCT03505801 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03505801",
+        "hash": "1f8ac36b"
+      }
+    },
+    {
+      "name": "NCT02177266 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02177266",
+        "hash": "a20e671c"
+      }
+    },
+    {
+      "name": "NCT05923242 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05923242",
+        "hash": "097623c7"
+      }
+    },
+    {
+      "name": "NCT00495898 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00495898",
+        "hash": "d5d46be6"
+      }
+    },
+    {
+      "name": "NCT06226987 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06226987",
+        "hash": "fb70b858"
+      }
+    },
+    {
+      "name": "NCT00299572 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        0.6
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00299572",
+        "hash": "abf07f37"
+      }
+    },
+    {
+      "name": "NCT03840499 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03840499",
+        "hash": "710959f3"
+      }
+    },
+    {
+      "name": "NCT06653166 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06653166",
+        "hash": "02228b5a"
+      }
+    },
+    {
+      "name": "NCT06176131 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06176131",
+        "hash": "2f683f85"
+      }
+    },
+    {
+      "name": "NCT06553534 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06553534",
+        "hash": "c606943c"
+      }
+    },
+    {
+      "name": "NCT00784316 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00784316",
+        "hash": "a6c77496"
+      }
+    },
+    {
+      "name": "NCT00787293 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00787293",
+        "hash": "ecf204a5"
+      }
+    },
+    {
+      "name": "NCT06818006 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06818006",
+        "hash": "31d84a65"
+      }
+    },
+    {
+      "name": "NCT03393728 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03393728",
+        "hash": "9f738141"
+      }
+    },
+    {
+      "name": "NCT00158912 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00158912",
+        "hash": "a3b75d44"
+      }
+    },
+    {
+      "name": "NCT00212992 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00212992",
+        "hash": "690bf2ef"
+      }
+    },
+    {
+      "name": "NCT03478332 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03478332",
+        "hash": "94a3873e"
+      }
+    },
+    {
+      "name": "NCT03448419 (Global/Undefined)",
+      "coords": [
+        69.0,
+        80.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03448419",
+        "hash": "73922428"
+      }
+    },
+    {
+      "name": "NCT01353729 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01353729",
+        "hash": "4cd86496"
+      }
+    },
+    {
+      "name": "NCT06632834 (East Asia)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        88.0,
+        18.0,
+        92.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06632834",
+        "hash": "cfe55060"
+      }
+    },
+    {
+      "name": "NCT02855099 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02855099",
+        "hash": "a1a9f92f"
+      }
+    },
+    {
+      "name": "NCT03298932 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03298932",
+        "hash": "7fe5427c"
+      }
+    },
+    {
+      "name": "NCT00424801 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00424801",
+        "hash": "2eca2fba"
+      }
+    },
+    {
+      "name": "NCT05184699 (Southern Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        75.0,
+        25.0,
+        80.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05184699",
+        "hash": "6fb4962b"
+      }
+    },
+    {
+      "name": "NCT00336011 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00336011",
+        "hash": "d67b1a38"
+      }
+    },
+    {
+      "name": "NCT03870087 (East Asia)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        92.0,
+        15.0,
+        98.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03870087",
+        "hash": "bdf40255"
+      }
+    },
+    {
+      "name": "NCT04844307 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04844307",
+        "hash": "a392be71"
+      }
+    },
+    {
+      "name": "NCT02072434 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02072434",
+        "hash": "4da6c34d"
+      }
+    },
+    {
+      "name": "NCT00808314 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00808314",
+        "hash": "37059b47"
+      }
+    },
+    {
+      "name": "NCT00368095 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00368095",
+        "hash": "e76d2c33"
+      }
+    },
+    {
+      "name": "NCT05575557 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05575557",
+        "hash": "4288c9aa"
+      }
+    },
+    {
+      "name": "NCT03804645 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03804645",
+        "hash": "0d4f6649"
+      }
+    },
+    {
+      "name": "NCT02908464 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02908464",
+        "hash": "5aaef2aa"
+      }
+    },
+    {
+      "name": "NCT04069377 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04069377",
+        "hash": "c2f24b01"
+      }
+    },
+    {
+      "name": "NCT03262571 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03262571",
+        "hash": "06e2eb64"
+      }
+    },
+    {
+      "name": "NCT02189499 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02189499",
+        "hash": "7334520e"
+      }
+    },
+    {
+      "name": "NCT02966522 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02966522",
+        "hash": "12894237"
+      }
+    },
+    {
+      "name": "NCT04713657 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04713657",
+        "hash": "40b31cc4"
+      }
+    },
+    {
+      "name": "NCT04703166 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04703166",
+        "hash": "ee7199ce"
+      }
+    },
+    {
+      "name": "NCT01116557 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01116557",
+        "hash": "d0784f12"
+      }
+    },
+    {
+      "name": "NCT03723239 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03723239",
+        "hash": "06dc25eb"
+      }
+    },
+    {
+      "name": "NCT04358822 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04358822",
+        "hash": "5a3a7c6a"
+      }
+    },
+    {
+      "name": "NCT04262830 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04262830",
+        "hash": "b49ae3a5"
+      }
+    },
+    {
+      "name": "NCT03087773 (Global/Undefined)",
+      "coords": [
+        57.0,
+        84.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03087773",
+        "hash": "a363e66a"
+      }
+    },
+    {
+      "name": "NCT04776239 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04776239",
+        "hash": "7d3d579c"
+      }
+    },
+    {
+      "name": "NCT02565069 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02565069",
+        "hash": "aa96e120"
+      }
+    },
+    {
+      "name": "NCT06551129 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06551129",
+        "hash": "f571918e"
+      }
+    },
+    {
+      "name": "NCT06686056 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06686056",
+        "hash": "9debeab4"
+      }
+    },
+    {
+      "name": "NCT01528514 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01528514",
+        "hash": "172307f4"
+      }
+    },
+    {
+      "name": "NCT03226457 (Global/Undefined)",
+      "coords": [
+        69.8,
+        6.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03226457",
+        "hash": "6b4371dc"
+      }
+    },
+    {
+      "name": "NCT01644006 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01644006",
+        "hash": "e122ad57"
+      }
+    },
+    {
+      "name": "NCT06979375 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06979375",
+        "hash": "98d36c4d"
+      }
+    },
+    {
+      "name": "NCT03370822 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03370822",
+        "hash": "893a32e8"
+      }
+    },
+    {
+      "name": "NCT04699812 (North America)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        95.0,
+        30.0,
+        100.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04699812",
+        "hash": "2f94ca19"
+      }
+    },
+    {
+      "name": "NCT02477371 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02477371",
+        "hash": "43badb64"
+      }
+    },
+    {
+      "name": "NCT02082483 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02082483",
+        "hash": "4b2b7b54"
+      }
+    },
+    {
+      "name": "NCT02092545 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02092545",
+        "hash": "0b96364e"
+      }
+    },
+    {
+      "name": "NCT03332212 (Global/Undefined)",
+      "coords": [
+        68.3,
+        30.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03332212",
+        "hash": "5ed1d021"
+      }
+    },
+    {
+      "name": "NCT05184530 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05184530",
+        "hash": "e98a095c"
+      }
+    },
+    {
+      "name": "NCT02291237 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02291237",
+        "hash": "17102057"
+      }
+    },
+    {
+      "name": "NCT04575675 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04575675",
+        "hash": "b4aa9a66"
+      }
+    },
+    {
+      "name": "NCT01747356 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01747356",
+        "hash": "92135e77"
+      }
+    },
+    {
+      "name": "NCT04160663 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04160663",
+        "hash": "67441726"
+      }
+    },
+    {
+      "name": "NCT00901745 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00901745",
+        "hash": "4db32924"
+      }
+    },
+    {
+      "name": "NCT03057951 (Global/Undefined)",
+      "coords": [
+        71.9,
+        2676.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03057951",
+        "hash": "b8d782b5"
+      }
+    },
+    {
+      "name": "NCT06353256 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06353256",
+        "hash": "4f1e87ef"
+      }
+    },
+    {
+      "name": "NCT06730828 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06730828",
+        "hash": "6c5e6209"
+      }
+    },
+    {
+      "name": "NCT04019314 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04019314",
+        "hash": "0a353c3e"
+      }
+    },
+    {
+      "name": "NCT06870409 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06870409",
+        "hash": "bbb8dfc1"
+      }
+    },
+    {
+      "name": "NCT05984563 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05984563",
+        "hash": "f60f79e5"
+      }
+    },
+    {
+      "name": "NCT03182829 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03182829",
+        "hash": "61a70f30"
+      }
+    },
+    {
+      "name": "NCT05523999 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05523999",
+        "hash": "f2d4d9d7"
+      }
+    },
+    {
+      "name": "NCT00461630 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00461630",
+        "hash": "d7476261"
+      }
+    },
+    {
+      "name": "NCT06965504 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06965504",
+        "hash": "b1b84e7e"
+      }
+    },
+    {
+      "name": "NCT06378632 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06378632",
+        "hash": "63bf2dc5"
+      }
+    },
+    {
+      "name": "NCT02004509 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02004509",
+        "hash": "30dfda56"
+      }
+    },
+    {
+      "name": "NCT01109992 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01109992",
+        "hash": "741ae398"
+      }
+    },
+    {
+      "name": "NCT03200860 (Global/Undefined)",
+      "coords": [
+        76.0,
+        26.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03200860",
+        "hash": "bb5da7db"
+      }
+    },
+    {
+      "name": "NCT04840914 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04840914",
+        "hash": "c7591b2b"
+      }
+    },
+    {
+      "name": "NCT01680081 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01680081",
+        "hash": "28c9ce58"
+      }
+    },
+    {
+      "name": "NCT02344277 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02344277",
+        "hash": "ac1f419b"
+      }
+    },
+    {
+      "name": "NCT01080872 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01080872",
+        "hash": "58d2844f"
+      }
+    },
+    {
+      "name": "NCT06425887 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06425887",
+        "hash": "ae31c98f"
+      }
+    },
+    {
+      "name": "NCT00265499 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00265499",
+        "hash": "4bbf8f30"
+      }
+    },
+    {
+      "name": "NCT03294200 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03294200",
+        "hash": "03ea2ddc"
+      }
+    },
+    {
+      "name": "NCT05543798 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05543798",
+        "hash": "631f6e34"
+      }
+    },
+    {
+      "name": "NCT03152552 (Global/Undefined)",
+      "coords": [
+        67.8,
+        35.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03152552",
+        "hash": "8dd76c9a"
+      }
+    },
+    {
+      "name": "NCT02007499 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02007499",
+        "hash": "f14852e9"
+      }
+    },
+    {
+      "name": "NCT02577614 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02577614",
+        "hash": "ea932767"
+      }
+    },
+    {
+      "name": "NCT05907863 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05907863",
+        "hash": "a8c597d8"
+      }
+    },
+    {
+      "name": "NCT01534663 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01534663",
+        "hash": "dacf0caa"
+      }
+    },
+    {
+      "name": "NCT06623344 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06623344",
+        "hash": "bf241275"
+      }
+    },
+    {
+      "name": "NCT03640000 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03640000",
+        "hash": "549892d2"
+      }
+    },
+    {
+      "name": "NCT02687932 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02687932",
+        "hash": "ad20e37f"
+      }
+    },
+    {
+      "name": "NCT00933400 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00933400",
+        "hash": "59e83eb4"
+      }
+    },
+    {
+      "name": "NCT04271098 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04271098",
+        "hash": "969603ff"
+      }
+    },
+    {
+      "name": "NCT06294119 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06294119",
+        "hash": "413bb588"
+      }
+    },
+    {
+      "name": "NCT04259411 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04259411",
+        "hash": "f320028b"
+      }
+    },
+    {
+      "name": "NCT02688829 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02688829",
+        "hash": "6bc248fc"
+      }
+    },
+    {
+      "name": "NCT03448406 (Global/Undefined)",
+      "coords": [
+        73.5,
+        136.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03448406",
+        "hash": "bb6d8514"
+      }
+    },
+    {
+      "name": "NCT06629701 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06629701",
+        "hash": "ca8c11ad"
+      }
+    },
+    {
+      "name": "NCT05417464 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05417464",
+        "hash": "f8cc1922"
+      }
+    },
+    {
+      "name": "NCT03746392 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03746392",
+        "hash": "d04700c1"
+      }
+    },
+    {
+      "name": "NCT00297219 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00297219",
+        "hash": "4306f0a7"
+      }
+    },
+    {
+      "name": "NCT03812601 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03812601",
+        "hash": "dbf9f485"
+      }
+    },
+    {
+      "name": "NCT06076395 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06076395",
+        "hash": "b6b38dc0"
+      }
+    },
+    {
+      "name": "NCT02004756 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02004756",
+        "hash": "af623b5d"
+      }
+    },
+    {
+      "name": "NCT03763136 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03763136",
+        "hash": "37a12fe3"
+      }
+    },
+    {
+      "name": "NCT05950867 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05950867",
+        "hash": "5f83c6cc"
+      }
+    },
+    {
+      "name": "NCT00665834 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00665834",
+        "hash": "a99ea372"
+      }
+    },
+    {
+      "name": "NCT04549298 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04549298",
+        "hash": "85427d1b"
+      }
+    },
+    {
+      "name": "NCT01432184 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01432184",
+        "hash": "d46d7962"
+      }
+    },
+    {
+      "name": "NCT04157751 (Global/Undefined)",
+      "coords": [
+        68.5,
+        179.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04157751",
+        "hash": "c1bd19d5"
+      }
+    },
+    {
+      "name": "NCT06572072 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06572072",
+        "hash": "4688f1d6"
+      }
+    },
+    {
+      "name": "NCT02565693 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02565693",
+        "hash": "ae5295fc"
+      }
+    },
+    {
+      "name": "NCT01515228 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01515228",
+        "hash": "223043b2"
+      }
+    },
+    {
+      "name": "NCT03715556 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03715556",
+        "hash": "0ca68573"
+      }
+    },
+    {
+      "name": "NCT05436977 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05436977",
+        "hash": "5d669b5a"
+      }
+    },
+    {
+      "name": "NCT02616939 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02616939",
+        "hash": "9944c169"
+      }
+    },
+    {
+      "name": "NCT07017907 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07017907",
+        "hash": "9518d8ce"
+      }
+    },
+    {
+      "name": "NCT07131631 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07131631",
+        "hash": "ad808616"
+      }
+    },
+    {
+      "name": "NCT06739239 (Western Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        90.0,
+        20.0,
+        95.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06739239",
+        "hash": "e306d03c"
+      }
+    },
+    {
+      "name": "NCT04253171 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04253171",
+        "hash": "334999aa"
+      }
+    },
+    {
+      "name": "NCT05053828 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05053828",
+        "hash": "2d9d5fda"
+      }
+    },
+    {
+      "name": "NCT05241665 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05241665",
+        "hash": "ad833985"
+      }
+    },
+    {
+      "name": "NCT01047566 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01047566",
+        "hash": "963d31fb"
+      }
+    },
+    {
+      "name": "NCT02881671 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02881671",
+        "hash": "59db525d"
+      }
+    },
+    {
+      "name": "NCT04235881 (Southern Europe)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        85.0,
+        22.0,
+        88.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04235881",
+        "hash": "7f8b7f4b"
+      }
+    },
+    {
+      "name": "NCT06597851 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06597851",
+        "hash": "aa808924"
+      }
+    },
+    {
+      "name": "NCT02144922 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02144922",
+        "hash": "954241d5"
+      }
+    },
+    {
+      "name": "NCT00196157 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00196157",
+        "hash": "eeaef5c2"
+      }
+    },
+    {
+      "name": "NCT02613845 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02613845",
+        "hash": "dc6c87dc"
+      }
+    },
+    {
+      "name": "NCT03235063 (Global/Undefined)",
+      "coords": [
+        65.0,
+        50.0,
+        100.0,
+        80.0,
+        25.0,
+        85.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03235063",
+        "hash": "9e0f819e"
+      }
+    },
+    {
+      "name": "Somalia_Pediatric_NTD [SIM]",
+      "coords": [
+        8.0,
+        50.0,
+        50.0,
+        15.0,
+        85.0,
+        5.0,
+        1.0
+      ],
+      "truth_cert": {
+        "locator": "WHO-NTD-7D",
+        "hash": "f5g6h7i8"
+      }
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "domain": "Somalia_Pediatric_NTD [SIM]",
+      "birth": 0.0,
+      "death": 28.907872707700836,
+      "isolation_score": 28.907872707700836,
+      "conformal_range": [
+        27.716878504887248,
+        30.098866910514424
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 100.0,
+      "truth_cert": {
+        "locator": "WHO-NTD-7D",
+        "hash": "f5g6h7i8"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04509674 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 20.067327443430603,
+      "isolation_score": 20.067327443430603,
+      "conformal_range": [
+        18.876333240617015,
+        21.25832164624419
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 69.4182088261542,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04509674",
+        "hash": "9a42ad83"
+      },
+      "reliability_index": 0.0
+    },
+    {
+      "domain": "NCT00299572 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 7.125936858628606,
+      "isolation_score": 7.125936858628606,
+      "conformal_range": [
+        5.934942655815017,
+        8.316931061442194
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 24.650505869739458,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00299572",
+        "hash": "abf07f37"
+      },
+      "reliability_index": 0.6
+    },
+    {
+      "domain": "NCT04937816 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 6.3243459842479375,
+      "isolation_score": 6.3243459842479375,
+      "conformal_range": [
+        5.133351781434349,
+        7.515340187061526
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 21.877590399667078,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04937816",
+        "hash": "bc202ea9"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03057951 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 4.008615060344639,
+      "isolation_score": 4.008615060344639,
+      "conformal_range": [
+        2.8176208575310504,
+        5.199609263158228
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 13.866862846939185,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03057951",
+        "hash": "b8d782b5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04699812 (North America)",
+      "birth": 0.0,
+      "death": 2.4189633240840216,
+      "isolation_score": 2.4189633240840216,
+      "conformal_range": [
+        1.227969121270433,
+        3.6099575268976105
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 8.36783580909995,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04699812",
+        "hash": "2f94ca19"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03057977 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 1.5848943917249698,
+      "isolation_score": 1.5848943917249698,
+      "conformal_range": [
+        0.3939001889113811,
+        2.7758885945385585
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 5.482570121124015,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03057977",
+        "hash": "86f4bd60"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03870087 (East Asia)",
+      "birth": 0.0,
+      "death": 1.2074461110019261,
+      "isolation_score": 1.2074461110019261,
+      "conformal_range": [
+        0.016451908188337416,
+        2.398440313815515
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 4.176876393537846,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03870087",
+        "hash": "bdf40255"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01268371 (Western Europe)",
+      "birth": 0.0,
+      "death": 1.200970448890435,
+      "isolation_score": 1.200970448890435,
+      "conformal_range": [
+        0.009976246076846218,
+        2.391964651704024
+      ],
+      "is_anomalous": true,
+      "isolation_score_normalized": 4.154475360514874,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01268371",
+        "hash": "7b3d533e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05184699 (Southern Europe)",
+      "birth": 0.0,
+      "death": 1.1909942028135887,
+      "isolation_score": 1.1909942028135887,
+      "conformal_range": [
+        0.0,
+        2.3819884056271774
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 4.119964878966403,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05184699",
+        "hash": "6fb4962b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04235881 (Southern Europe)",
+      "birth": 0.0,
+      "death": 1.1816298665083746,
+      "isolation_score": 1.1816298665083746,
+      "conformal_range": [
+        0.0,
+        2.3726240693219633
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 4.087571155637466,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04235881",
+        "hash": "7f8b7f4b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03087773 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 1.1212538986935305,
+      "isolation_score": 1.1212538986935305,
+      "conformal_range": [
+        0.0,
+        2.3122481015071195
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 3.8787146672153328,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03087773",
+        "hash": "a363e66a"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03200860 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.8715132396207294,
+      "isolation_score": 0.8715132396207294,
+      "conformal_range": [
+        0.0,
+        2.062507442434318
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 3.014795479532345,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03200860",
+        "hash": "bb5da7db"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05262764 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.7551206201008431,
+      "isolation_score": 0.7551206201008431,
+      "conformal_range": [
+        0.0,
+        1.9461148229144318
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 2.6121625334944993,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05262764",
+        "hash": "50c4fe88"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06632834 (East Asia)",
+      "birth": 0.0,
+      "death": 0.7198931782274612,
+      "isolation_score": 0.7198931782274612,
+      "conformal_range": [
+        0.0,
+        1.91088738104105
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 2.4903014673773876,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06632834",
+        "hash": "cfe55060"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03485222 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.670505347904141,
+      "isolation_score": 0.670505347904141,
+      "conformal_range": [
+        0.0,
+        1.8614995507177297
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 2.319455861328473,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03485222",
+        "hash": "954cf643"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03448406 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.6060480612590539,
+      "isolation_score": 0.6060480612590539,
+      "conformal_range": [
+        0.0,
+        1.7970422640726427
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 2.096481008433413,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03448406",
+        "hash": "bb6d8514"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03332212 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.35773289554553056,
+      "isolation_score": 0.35773289554553056,
+      "conformal_range": [
+        0.0,
+        1.5487270983591193
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 1.2374929804164845,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03332212",
+        "hash": "5ed1d021"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03030222 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.27345067508293824,
+      "isolation_score": 0.27345067508293824,
+      "conformal_range": [
+        0.0,
+        1.4644448778965269
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.9459384225463712,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03030222",
+        "hash": "fd8c7bfe"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04157751 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.24070243856973295,
+      "isolation_score": 0.24070243856973295,
+      "conformal_range": [
+        0.0,
+        1.4316966413833216
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.8326535854214263,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04157751",
+        "hash": "c1bd19d5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03226457 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.2392666102619043,
+      "isolation_score": 0.2392666102619043,
+      "conformal_range": [
+        0.0,
+        1.430260813075493
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.8276866744268094,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03226457",
+        "hash": "6b4371dc"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03448419 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.18970745717430498,
+      "isolation_score": 0.18970745717430498,
+      "conformal_range": [
+        0.0,
+        1.3807016599878936
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.6562484174899814,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03448419",
+        "hash": "73922428"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03152552 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.11206522887820619,
+      "isolation_score": 0.11206522887820619,
+      "conformal_range": [
+        0.0,
+        1.303059431691795
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.3876633538944319,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03152552",
+        "hash": "8dd76c9a"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT07352111 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07352111",
+        "hash": "0eaceef9"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT07283172 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07283172",
+        "hash": "da76037f"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT07247032 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07247032",
+        "hash": "4f68f6d6"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT07131631 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07131631",
+        "hash": "ad808616"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT07017907 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT07017907",
+        "hash": "9518d8ce"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06979375 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06979375",
+        "hash": "98d36c4d"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06965504 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06965504",
+        "hash": "b1b84e7e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06870409 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06870409",
+        "hash": "bbb8dfc1"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06818006 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06818006",
+        "hash": "31d84a65"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06739239 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06739239",
+        "hash": "e306d03c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06730828 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06730828",
+        "hash": "6c5e6209"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06686056 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06686056",
+        "hash": "9debeab4"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06653166 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06653166",
+        "hash": "02228b5a"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06629701 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06629701",
+        "hash": "ca8c11ad"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06626672 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06626672",
+        "hash": "e38ee972"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06623344 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06623344",
+        "hash": "bf241275"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06597851 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06597851",
+        "hash": "aa808924"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06572072 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06572072",
+        "hash": "4688f1d6"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06553534 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06553534",
+        "hash": "c606943c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06551129 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06551129",
+        "hash": "f571918e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06546163 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06546163",
+        "hash": "d21fa9a4"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06425887 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06425887",
+        "hash": "ae31c98f"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06378632 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06378632",
+        "hash": "63bf2dc5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06353256 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06353256",
+        "hash": "4f1e87ef"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06346145 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06346145",
+        "hash": "0f0aa084"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06338956 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06338956",
+        "hash": "9349f1b7"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06294119 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06294119",
+        "hash": "413bb588"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06227819 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06227819",
+        "hash": "94da3cc4"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06226987 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06226987",
+        "hash": "fb70b858"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06176131 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06176131",
+        "hash": "2f683f85"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06119009 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06119009",
+        "hash": "a8de63d7"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT06076395 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT06076395",
+        "hash": "b6b38dc0"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05984563 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05984563",
+        "hash": "f60f79e5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05950867 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05950867",
+        "hash": "5f83c6cc"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05923242 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05923242",
+        "hash": "097623c7"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05911386 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05911386",
+        "hash": "07773041"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05907863 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05907863",
+        "hash": "a8c597d8"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05784883 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05784883",
+        "hash": "efe39f0d"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05774795 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05774795",
+        "hash": "1869191c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05719714 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05719714",
+        "hash": "fc6f0407"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05575557 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05575557",
+        "hash": "4288c9aa"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05543798 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05543798",
+        "hash": "631f6e34"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05523999 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05523999",
+        "hash": "f2d4d9d7"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05450302 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05450302",
+        "hash": "1de1e379"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05436977 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05436977",
+        "hash": "5d669b5a"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05417464 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05417464",
+        "hash": "f8cc1922"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05241665 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05241665",
+        "hash": "ad833985"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05211401 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05211401",
+        "hash": "6005b925"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05184530 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05184530",
+        "hash": "e98a095c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT05053828 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT05053828",
+        "hash": "2d9d5fda"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04844307 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04844307",
+        "hash": "a392be71"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04840914 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04840914",
+        "hash": "c7591b2b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04776239 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04776239",
+        "hash": "7d3d579c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04732039 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04732039",
+        "hash": "1ec1d83d"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04713657 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04713657",
+        "hash": "40b31cc4"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04703166 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04703166",
+        "hash": "ee7199ce"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04575675 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04575675",
+        "hash": "b4aa9a66"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04562532 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04562532",
+        "hash": "43e184d7"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04554004 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04554004",
+        "hash": "302c059c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04549298 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04549298",
+        "hash": "85427d1b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04468477 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04468477",
+        "hash": "3d9f0c46"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04437914 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04437914",
+        "hash": "5e286836"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04358822 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04358822",
+        "hash": "5a3a7c6a"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04298177 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04298177",
+        "hash": "0f2797db"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04271098 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04271098",
+        "hash": "969603ff"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04262830 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04262830",
+        "hash": "b49ae3a5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04261257 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04261257",
+        "hash": "5316ad2c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04259411 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04259411",
+        "hash": "f320028b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04253171 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04253171",
+        "hash": "334999aa"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04223167 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04223167",
+        "hash": "bdfadb79"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04210167 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04210167",
+        "hash": "f1dbf5d3"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04160663 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04160663",
+        "hash": "67441726"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04069377 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04069377",
+        "hash": "c2f24b01"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04019314 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04019314",
+        "hash": "0a353c3e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT04014842 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT04014842",
+        "hash": "d574b3f0"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03840499 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03840499",
+        "hash": "710959f3"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03812601 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03812601",
+        "hash": "dbf9f485"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03804645 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03804645",
+        "hash": "0d4f6649"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03783975 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03783975",
+        "hash": "cf2f6619"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03763136 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03763136",
+        "hash": "37a12fe3"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03746392 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03746392",
+        "hash": "d04700c1"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03723239 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03723239",
+        "hash": "06dc25eb"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03715556 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03715556",
+        "hash": "0ca68573"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03640000 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03640000",
+        "hash": "549892d2"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03505801 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03505801",
+        "hash": "1f8ac36b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03478332 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03478332",
+        "hash": "94a3873e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03393728 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03393728",
+        "hash": "9f738141"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03370822 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03370822",
+        "hash": "893a32e8"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03298932 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03298932",
+        "hash": "7fe5427c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03294200 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03294200",
+        "hash": "03ea2ddc"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03262571 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03262571",
+        "hash": "06e2eb64"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03235063 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03235063",
+        "hash": "9e0f819e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03182829 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03182829",
+        "hash": "61a70f30"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT03021044 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT03021044",
+        "hash": "e3622347"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02980393 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02980393",
+        "hash": "4b962fe9"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02966522 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02966522",
+        "hash": "12894237"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02908464 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02908464",
+        "hash": "5aaef2aa"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02905357 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02905357",
+        "hash": "ca8ce555"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02881671 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02881671",
+        "hash": "59db525d"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02855099 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02855099",
+        "hash": "a1a9f92f"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02843464 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02843464",
+        "hash": "2cf0786a"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02688829 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02688829",
+        "hash": "6bc248fc"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02687932 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02687932",
+        "hash": "ad20e37f"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02616939 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02616939",
+        "hash": "9944c169"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02613845 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02613845",
+        "hash": "dc6c87dc"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02579499 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02579499",
+        "hash": "3e71ea65"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02577614 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02577614",
+        "hash": "ea932767"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02565693 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02565693",
+        "hash": "ae5295fc"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02565069 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02565069",
+        "hash": "aa96e120"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02477371 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02477371",
+        "hash": "43badb64"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02344277 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02344277",
+        "hash": "ac1f419b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02291237 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02291237",
+        "hash": "17102057"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02189499 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02189499",
+        "hash": "7334520e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02177266 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02177266",
+        "hash": "a20e671c"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02144922 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02144922",
+        "hash": "954241d5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02092545 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02092545",
+        "hash": "0b96364e"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02083744 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02083744",
+        "hash": "00b4e361"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02082483 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02082483",
+        "hash": "4b2b7b54"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02072434 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02072434",
+        "hash": "4da6c34d"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02041130 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02041130",
+        "hash": "54df3912"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02007499 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02007499",
+        "hash": "f14852e9"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02004756 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02004756",
+        "hash": "af623b5d"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT02004509 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT02004509",
+        "hash": "30dfda56"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01948622 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01948622",
+        "hash": "b94a09a5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01835392 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01835392",
+        "hash": "0af1073f"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01766466 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01766466",
+        "hash": "e6b1b9c6"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01747356 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01747356",
+        "hash": "92135e77"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01692314 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01692314",
+        "hash": "837834f7"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01680081 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01680081",
+        "hash": "28c9ce58"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01644006 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01644006",
+        "hash": "e122ad57"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01598844 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01598844",
+        "hash": "21729d59"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01534663 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01534663",
+        "hash": "dacf0caa"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01528514 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01528514",
+        "hash": "172307f4"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01515228 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01515228",
+        "hash": "223043b2"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01432184 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01432184",
+        "hash": "d46d7962"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01384656 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01384656",
+        "hash": "e03444de"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01353729 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01353729",
+        "hash": "4cd86496"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01116557 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01116557",
+        "hash": "d0784f12"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01109992 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01109992",
+        "hash": "741ae398"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01080872 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01080872",
+        "hash": "58d2844f"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01074671 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01074671",
+        "hash": "c4074d8b"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT01047566 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT01047566",
+        "hash": "963d31fb"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00989456 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00989456",
+        "hash": "1a62fcb8"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00933400 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00933400",
+        "hash": "59e83eb4"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00916929 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00916929",
+        "hash": "f3b67339"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00901745 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00901745",
+        "hash": "4db32924"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00808314 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00808314",
+        "hash": "37059b47"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00787293 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00787293",
+        "hash": "ecf204a5"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00784316 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00784316",
+        "hash": "a6c77496"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00665834 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00665834",
+        "hash": "a99ea372"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00495898 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00495898",
+        "hash": "d5d46be6"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00461630 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00461630",
+        "hash": "d7476261"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00424801 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00424801",
+        "hash": "2eca2fba"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00417664 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00417664",
+        "hash": "b469de34"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00368095 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00368095",
+        "hash": "e76d2c33"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00336011 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00336011",
+        "hash": "d67b1a38"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00297219 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00297219",
+        "hash": "4306f0a7"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00265499 (Western Europe)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00265499",
+        "hash": "4bbf8f30"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00212992 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00212992",
+        "hash": "690bf2ef"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00196157 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00196157",
+        "hash": "eeaef5c2"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00158912 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00158912",
+        "hash": "a3b75d44"
+      },
+      "reliability_index": 1.0
+    },
+    {
+      "domain": "NCT00140998 (Global/Undefined)",
+      "birth": 0.0,
+      "death": 0.0,
+      "isolation_score": 0.0,
+      "conformal_range": [
+        0.0,
+        1.1909942028135887
+      ],
+      "is_anomalous": false,
+      "isolation_score_normalized": 0.0,
+      "truth_cert": {
+        "locator": "AACT-7D-NCT00140998",
+        "hash": "9c86f73d"
+      },
+      "reliability_index": 1.0
+    }
+  ],
+  "merge_sequence": [
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04261257 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04437914 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04298177 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00417664 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06338956 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT07352111 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05450302 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04223167 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02905357 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03783975 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01835392 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01766466 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01692314 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01598844 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02579499 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04014842 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05719714 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00916929 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02980393 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04732039 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03021044 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05784883 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01948622 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00140998 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06227819 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05774795 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00989456 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06346145 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT07247032 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT07283172 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06119009 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04210167 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01074671 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04468477 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02843464 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06546163 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04562532 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02083744 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02041130 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06626672 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01384656 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04554004 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03505801 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02177266 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05923242 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00495898 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06226987 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03840499 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06653166 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06176131 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06553534 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00784316 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00787293 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06818006 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03393728 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00158912 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00212992 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03478332 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01353729 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02855099 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00424801 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00336011 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04844307 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02072434 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00368095 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05575557 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03804645 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02908464 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04069377 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03262571 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02189499 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02966522 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04713657 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04703166 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01116557 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03723239 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04358822 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04262830 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04776239 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02565069 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06551129 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06686056 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01528514 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01644006 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06979375 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03370822 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02477371 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02082483 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02092545 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05184530 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02291237 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04575675 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01747356 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04160663 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00901745 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06353256 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06730828 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04019314 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06870409 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05984563 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03182829 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05523999 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00461630 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06965504 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06378632 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02004509 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01109992 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04840914 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01680081 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02344277 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01080872 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06425887 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03294200 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05543798 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02007499 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02577614 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05907863 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01534663 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06623344 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03640000 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02687932 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00933400 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04271098 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06294119 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04259411 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02688829 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06629701 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03746392 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00297219 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03812601 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06076395 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02004756 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03763136 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05950867 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04549298 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01432184 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06572072 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02565693 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03715556 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05436977 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02616939 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT07017907 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT07131631 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT04253171 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05053828 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05241665 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01047566 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02881671 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06597851 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02144922 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00196157 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT02613845 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03235063 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05211401 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05911386 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT03298932 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00808314 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00265499 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT05417464 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT00665834 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT01515228 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.0,
+      "merged": [
+        "NCT06739239 (Western Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.11206522887820619,
+      "merged": [
+        "NCT03152552 (Global/Undefined)",
+        "NCT03332212 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.18970745717430498,
+      "merged": [
+        "NCT03448419 (Global/Undefined)",
+        "NCT03332212 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.2392666102619043,
+      "merged": [
+        "NCT03226457 (Global/Undefined)",
+        "NCT03332212 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.24070243856973295,
+      "merged": [
+        "NCT04157751 (Global/Undefined)",
+        "NCT03332212 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.27345067508293824,
+      "merged": [
+        "NCT03030222 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.35773289554553056,
+      "merged": [
+        "NCT03332212 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.6060480612590539,
+      "merged": [
+        "NCT03448406 (Global/Undefined)",
+        "NCT03200860 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.670505347904141,
+      "merged": [
+        "NCT03485222 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.7198931782274612,
+      "merged": [
+        "NCT06632834 (East Asia)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 0.7551206201008431,
+      "merged": [
+        "NCT05262764 (Global/Undefined)",
+        "NCT03200860 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 0.8715132396207294,
+      "merged": [
+        "NCT03200860 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 1.1212538986935305,
+      "merged": [
+        "NCT03087773 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 1.1816298665083746,
+      "merged": [
+        "NCT04235881 (Southern Europe)",
+        "NCT01268371 (Western Europe)"
+      ]
+    },
+    {
+      "distance": 1.1909942028135887,
+      "merged": [
+        "NCT05184699 (Southern Europe)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 1.200970448890435,
+      "merged": [
+        "NCT01268371 (Western Europe)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 1.2074461110019261,
+      "merged": [
+        "NCT03870087 (East Asia)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 1.5848943917249698,
+      "merged": [
+        "NCT03057977 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 2.4189633240840216,
+      "merged": [
+        "NCT04699812 (North America)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 4.008615060344639,
+      "merged": [
+        "NCT03057951 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 6.3243459842479375,
+      "merged": [
+        "NCT04937816 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 7.125936858628606,
+      "merged": [
+        "NCT00299572 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 20.067327443430603,
+      "merged": [
+        "NCT04509674 (Global/Undefined)",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    },
+    {
+      "distance": 28.907872707700836,
+      "merged": [
+        "Somalia_Pediatric_NTD [SIM]",
+        "NCT01845311 (Global/Undefined)"
+      ]
+    }
+  ]
+}
