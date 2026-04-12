@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="TDA-Meta ranks simulated evidence voids using persistent-homology-inspired isolation scores."
+    >
+    <link
+        rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23020617'/%3E%3Cpath d='M12 46h40v6H12zm6-10l8-10 8 8 12-16 4 3-15 20-9-8-5 7z' fill='%23facc15'/%3E%3C/svg%3E"
+    >
     <title>Topological Evidence Gaps</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="app-container">
@@ -17,6 +24,7 @@
 
             <div class="controls">
                 <button id="btnCompute" class="btn-primary">Scan Topology</button>
+                <div id="statusBanner" class="status-banner">Waiting for topological evidence bundle.</div>
             </div>
 
             <div class="metrics">
@@ -31,19 +39,21 @@
             </div>
 
             <footer class="sidebar-footer">
-                <p>TruthCert: Persistent Homology (v2026)</p>
+                <p id="methodologyStamp" class="method-stamp">Methodology: Pending...</p>
+                <p id="auditStamp">Audit stamp unavailable.</p>
             </footer>
         </aside>
 
         <main class="main-content">
             <div class="chart-container">
-                <canvas id="voidChart"></canvas>
+                <div id="voidChart" class="bar-chart" role="img" aria-label="Evidence void isolation chart"></div>
             </div>
             <div id="gapDetails" class="gap-details">
-                <!-- Details populated by JS -->
+                <div class="empty-state">Run the topology scan to load gap summaries.</div>
             </div>
         </main>
     </div>
+    <script src="data/tda_results.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

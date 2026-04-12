@@ -12,8 +12,22 @@ This project maps clinical populations into a high-dimensional space and uses **
 ## Project Structure
 - `core/math.py`: TDA and distance matrix functions.
 - `core/pipeline.py`: Evidence scanning pipeline.
+- `data/tda_results.js`: inline browser bundle for static loading.
 - `index.html`: Interactive TDA dashboard.
 
 ## Target Journals
 - *Nature Methods*
 - *Biostatistics*
+
+## Run
+
+```bash
+python3 core/pipeline.py
+```
+
+## Validate
+
+```bash
+pytest -q
+node --check app.js
+```

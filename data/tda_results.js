@@ -1,4 +1,4 @@
-{
+window.__TDA_DATA__ = {
   "audit": {
     "methodology": "E156 TDA (Persistent Homology) - [DML + Conformal + Reliability Shock]",
     "timestamp": "2026-04-12T04:26:09.621675+00:00",
@@ -7427,4 +7427,4 @@
       ]
     }
   ]
-}
+};
