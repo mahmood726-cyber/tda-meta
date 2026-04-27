@@ -15,8 +15,8 @@ def test_run_pipeline_writes_json_and_js(tmp_path):
 
     assert destination.exists()
     assert destination.with_suffix(".js").exists()
-    assert payload["audit"]["output_path"] == str(destination)
-    assert payload["audit"]["output_js_path"] == str(destination.with_suffix(".js"))
+    assert payload["audit"]["output_path"] == pipeline._audit_path(destination)
+    assert payload["audit"]["output_js_path"] == pipeline._audit_path(destination.with_suffix(".js"))
     assert "__TDA_DATA__" in destination.with_suffix(".js").read_text(encoding="utf-8")
 
     persisted = json.loads(destination.read_text(encoding="utf-8"))

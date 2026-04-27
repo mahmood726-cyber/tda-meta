@@ -1,0 +1,21 @@
+# Local session state
+PROGRESS.md
+STUCK_FAILURES.md
+STUCK_FAILURES.jsonl
+review-findings.md
+review-findings.jsonl
+sentinel-findings.md
+sentinel-findings.jsonl
+
+# Python
+__pycache__/
+.pytest_cache/
+.pytest_cache_local/
+.pytest_tmp/
+.pytest_tmp_local/
+pytest-cache-files-*/
+*.py[cod]
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

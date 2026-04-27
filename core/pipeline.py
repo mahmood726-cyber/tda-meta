@@ -22,6 +22,13 @@ def _serialize_browser_bundle(payload):
     return f"window.__TDA_DATA__ = {json.dumps(payload, indent=2)};\n"
 
 
+def _audit_path(path):
+    try:
+        return str(path.relative_to(REPO_ROOT)).replace("\\", "/")
+    except ValueError:
+        return str(path)
+
+
 def load_raw_domains():
     """Ingest domains from CSV and extract all coordinate columns (c1, c2, ...)."""
     if RAW_DATA_CSV.exists():
@@ -80,8 +87,8 @@ def run_pipeline(output_path=None):
         "audit": {
             "methodology": METHODOLOGY,
             "timestamp": datetime.datetime.now(datetime.UTC).isoformat(),
-            "output_path": str(destination),
-            "output_js_path": str(js_destination),
+            "output_path": _audit_path(destination),
+            "output_js_path": _audit_path(js_destination),
         },
         "domains": domains,
         "evidence_gaps": gaps,

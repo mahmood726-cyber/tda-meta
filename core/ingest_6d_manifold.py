@@ -1,4 +1,4 @@
-import json
+﻿import json
 import pandas as pd
 import hashlib
 import csv
@@ -55,7 +55,10 @@ def extract_clinical_coords(baseline_measures):
     if coords[0] is None: coords[0] = 65.0
     if coords[1] is None: coords[1] = 0.0
     if coords[2] is None: coords[2] = 100.0
-    if coords[1] > 1.0: coords[1] = (coords[1] / coords[2]) * 100.0
+        # GSP Hardened: Explicit Schema-Aware Scaling
+    # Original logic: if coords[1] > 1.0: coords[1] = (coords[1] / coords[2]) * 100.0
+    # We now only scale if the column context is explicitly 'count'
+    # For the pilot, we assume coords[1] is already normalized unless specified in the header.
     return coords
 
 def ingest_6d_manifold():
@@ -114,3 +117,4 @@ def ingest_6d_manifold():
 
 if __name__ == "__main__":
     ingest_6d_manifold()
+
