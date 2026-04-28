@@ -1,6 +1,7 @@
 import csv
 import datetime
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -29,30 +30,37 @@ def _audit_path(path):
         return str(path)
 
 
+def resolve_raw_domains_csv():
+    override = os.environ.get("TDA_RAW_DOMAINS")
+    candidates = []
+    if override:
+        candidates.append(Path(override))
+    candidates.append(RAW_DATA_CSV)
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    checked = "\n - ".join(str(candidate) for candidate in candidates)
+    raise FileNotFoundError(f"Missing required TDA raw domains CSV. Checked:\n - {checked}")
+
+
 def load_raw_domains():
     """Ingest domains from CSV and extract all coordinate columns (c1, c2, ...)."""
-    if RAW_DATA_CSV.exists():
-        domains = []
-        with RAW_DATA_CSV.open(newline="", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                # Dynamically collect all columns starting with 'c' followed by a digit
-                coord_keys = sorted([k for k in row.keys() if k.startswith('c') and k[1:].isdigit()])
-                domains.append({
-                    "name": row["domain_name"],
-                    "coords": [float(row[k]) for k in coord_keys],
-                    "truth_cert": {
-                        "locator": row.get("locator", "UNCERTIFIED"),
-                        "hash": row.get("source_hash", "0x0000")
-                    }
-                })
-        return domains
-    
-    # Legacy fallback (UNCERTIFIED)
-    return [
-        {"name": "USA_Cardio [SIM]", "coords": [95, 30, 100, 95, 30, 100, 1.0], "truth_cert": {"locator": "UNCERTIFIED", "hash": "0x00"}},
-        {"name": "Somalia_Neglected_Trop [SIM]", "coords": [15, 85, 5, 15, 85, 5, 1.0], "truth_cert": {"locator": "UNCERTIFIED", "hash": "0x00"}}
-    ]
+    raw_data_csv = resolve_raw_domains_csv()
+    domains = []
+    with raw_data_csv.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            # Dynamically collect all columns starting with 'c' followed by a digit
+            coord_keys = sorted([k for k in row.keys() if k.startswith('c') and k[1:].isdigit()])
+            domains.append({
+                "name": row["domain_name"],
+                "coords": [float(row[k]) for k in coord_keys],
+                "truth_cert": {
+                    "locator": row.get("locator", "UNCERTIFIED"),
+                    "hash": row.get("source_hash", "0x0000")
+                }
+            })
+    return domains
 
 
 def run_pipeline(output_path=None):

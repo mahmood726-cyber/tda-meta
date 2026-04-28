@@ -2,6 +2,8 @@ import json
 import sys
 from pathlib import Path
 
+import pytest
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
@@ -22,3 +24,11 @@ def test_run_pipeline_writes_json_and_js(tmp_path):
     persisted = json.loads(destination.read_text(encoding="utf-8"))
     assert len(persisted["domains"]) >= 1
     assert len(persisted["evidence_gaps"]) >= 1
+
+
+def test_load_raw_domains_fails_closed_without_csv(monkeypatch, tmp_path):
+    monkeypatch.delenv("TDA_RAW_DOMAINS", raising=False)
+    monkeypatch.setattr(pipeline, "RAW_DATA_CSV", tmp_path / "missing_raw_domains.csv")
+
+    with pytest.raises(FileNotFoundError, match="Missing required TDA raw domains CSV"):
+        pipeline.load_raw_domains()
