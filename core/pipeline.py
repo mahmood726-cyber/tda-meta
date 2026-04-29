@@ -43,6 +43,20 @@ def resolve_raw_domains_csv():
     raise FileNotFoundError(f"Missing required TDA raw domains CSV. Checked:\n - {checked}")
 
 
+def _required_truth_cert(row):
+    locator = (row.get("locator") or "").strip()
+    source_hash = (row.get("source_hash") or "").strip()
+    domain_name = row.get("domain_name", "<unknown domain>")
+
+    if not locator or not source_hash:
+        raise ValueError(
+            f"Domain '{domain_name}' is missing required truth-cert fields "
+            f"(locator/source_hash) in the raw domains CSV."
+        )
+
+    return {"locator": locator, "hash": source_hash}
+
+
 def load_raw_domains():
     """Ingest domains from CSV and extract all coordinate columns (c1, c2, ...)."""
     raw_data_csv = resolve_raw_domains_csv()
@@ -52,13 +66,11 @@ def load_raw_domains():
         for row in reader:
             # Dynamically collect all columns starting with 'c' followed by a digit
             coord_keys = sorted([k for k in row.keys() if k.startswith('c') and k[1:].isdigit()])
+            truth_cert = _required_truth_cert(row)
             domains.append({
                 "name": row["domain_name"],
                 "coords": [float(row[k]) for k in coord_keys],
-                "truth_cert": {
-                    "locator": row.get("locator", "UNCERTIFIED"),
-                    "hash": row.get("source_hash", "0x0000")
-                }
+                "truth_cert": truth_cert,
             })
     return domains
 
@@ -81,10 +93,13 @@ def run_pipeline(output_path=None):
     for g in gaps:
         g["isolation_score_normalized"] = float((g["isolation_score"] / max_iso) * 100.0)
         # Attach TruthCert and Reliability
-        domain_info = domain_map.get(g["domain"], {})
-        g["truth_cert"] = domain_info.get("truth_cert", {"locator": "UNCERTIFIED", "hash": "0x00"})
+        if g["domain"] not in domain_map:
+            raise KeyError(f"Evidence gap domain '{g['domain']}' is missing from the loaded raw domains surface.")
+        domain_info = domain_map[g["domain"]]
+        g["truth_cert"] = domain_info["truth_cert"]
         # C7 is reliability
-        g["reliability_index"] = domain_info.get("coords", [1.0]*7)[6] if len(domain_info.get("coords", [])) >= 7 else 1.0
+        coords = domain_info.get("coords", [])
+        g["reliability_index"] = coords[6] if len(coords) >= 7 else 1.0
     
     destination = DATA_PATH if output_path is None else Path(output_path)
     js_destination = JS_DATA_PATH if output_path is None else destination.with_suffix(".js")

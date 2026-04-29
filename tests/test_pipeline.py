@@ -32,3 +32,16 @@ def test_load_raw_domains_fails_closed_without_csv(monkeypatch, tmp_path):
 
     with pytest.raises(FileNotFoundError, match="Missing required TDA raw domains CSV"):
         pipeline.load_raw_domains()
+
+
+def test_load_raw_domains_rejects_missing_truth_cert_fields(monkeypatch, tmp_path):
+    raw_csv = tmp_path / "raw_domains.csv"
+    raw_csv.write_text(
+        "domain_name,c1,c2,c3,c4,c5,c6,c7,locator,source_hash\n"
+        "Domain A,1,2,3,4,5,6,7,,hash-1\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(pipeline, "RAW_DATA_CSV", raw_csv)
+
+    with pytest.raises(ValueError, match="missing required truth-cert fields"):
+        pipeline.load_raw_domains()
