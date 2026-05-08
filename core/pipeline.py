@@ -30,6 +30,12 @@ def _audit_path(path):
         return str(path)
 
 
+def _source_snapshot_timestamp(paths):
+    latest_mtime = max(path.stat().st_mtime for path in paths)
+    timestamp = datetime.datetime.fromtimestamp(latest_mtime, datetime.UTC)
+    return timestamp.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
 def resolve_raw_domains_csv():
     override = os.environ.get("TDA_RAW_DOMAINS")
     candidates = []
@@ -57,9 +63,9 @@ def _required_truth_cert(row):
     return {"locator": locator, "hash": source_hash}
 
 
-def load_raw_domains():
+def load_raw_domains(raw_data_csv=None):
     """Ingest domains from CSV and extract all coordinate columns (c1, c2, ...)."""
-    raw_data_csv = resolve_raw_domains_csv()
+    raw_data_csv = Path(raw_data_csv) if raw_data_csv is not None else resolve_raw_domains_csv()
     domains = []
     with raw_data_csv.open(newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -76,7 +82,8 @@ def load_raw_domains():
 
 
 def run_pipeline(output_path=None):
-    domains = load_raw_domains()
+    raw_data_csv = resolve_raw_domains_csv()
+    domains = load_raw_domains(raw_data_csv)
     
     labels = [d["name"] for d in domains]
     coords = [d["coords"] for d in domains]
@@ -109,7 +116,7 @@ def run_pipeline(output_path=None):
     output = {
         "audit": {
             "methodology": METHODOLOGY,
-            "timestamp": datetime.datetime.now(datetime.UTC).isoformat(),
+            "timestamp": _source_snapshot_timestamp([raw_data_csv]),
             "output_path": _audit_path(destination),
             "output_js_path": _audit_path(js_destination),
         },

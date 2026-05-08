@@ -35,7 +35,7 @@ def grim_test(mean, n, items=1):
         rounded_sum = round(total_sum)
         error = abs(total_sum - rounded_sum)
         return error < 0.51
-    except:
+    except (TypeError, ValueError):
         return True
 
 def calculate_forensic_reliability(age_series, n_series):

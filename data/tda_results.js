@@ -1,7 +1,7 @@
 window.__TDA_DATA__ = {
   "audit": {
     "methodology": "E156 TDA (Persistent Homology) - [DML + Conformal + Reliability Shock]",
-    "timestamp": "2026-04-27T13:03:29.397314+00:00",
+    "timestamp": "2026-04-12T17:47:31Z",
     "output_path": "data/tda_results.json",
     "output_js_path": "data/tda_results.js"
   },

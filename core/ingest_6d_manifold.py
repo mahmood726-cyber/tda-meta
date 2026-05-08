@@ -36,7 +36,8 @@ def extract_clinical_coords(baseline_measures):
                 categories = measure.get("classes", [{}])[0].get("categories", [{}])[0]
                 measurements = categories.get("measurements", [])
                 coords[0] = float(measurements[-1].get("value", 65.0))
-            except: pass
+            except (IndexError, TypeError, ValueError):
+                pass
         if "sex" in title and "female" in title:
             try:
                 categories = measure.get("classes", [{}])[0].get("categories", [])
@@ -44,13 +45,15 @@ def extract_clinical_coords(baseline_measures):
                     if "female" in cat.get("title", "").lower():
                         measurements = cat.get("measurements", [])
                         coords[1] = float(measurements[-1].get("value", 0.0))
-            except: pass
+            except (IndexError, TypeError, ValueError):
+                pass
         if "total" in title and "participants" in title:
              try:
                 categories = measure.get("classes", [{}])[0].get("categories", [{}])[0]
                 measurements = categories.get("measurements", [])
                 coords[2] = float(measurements[-1].get("value", 100.0))
-             except: pass
+             except (IndexError, TypeError, ValueError):
+                pass
 
     if coords[0] is None: coords[0] = 65.0
     if coords[1] is None: coords[1] = 0.0
